@@ -37,7 +37,7 @@ const Search = ({ properties }) => {
 			<Flex flexWrap="wrap">
 				{properties.map((property) => <Property property={property} key={property.id} />)}
 			</Flex>
-			{[].length === 0 && (
+			{properties.length === 0 && (
 				<Flex justifyContent="center" alignItems="center" flexDirection="column" marginTop="5" marginBottom="5">
 					<Image alt="no result" src={noresult}/>
 					<Text fontSize="2xl" marginTop="3">
