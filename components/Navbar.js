@@ -6,13 +6,13 @@ import { FiBluetooth, FiKey } from "react-icons/fi";
 
 const Navbar = () => (
 	<Flex p="2" borderBottom="1px" borderColor="gray.100">
-		<Box fontSize="3xl" color="blue.400" fontWeight="bold">
+		<Box fontSize="3xl" color="orange.400" fontWeight="bold">
 			<Link href="/" paddingLeft="2">Realtor NextJs</Link>
 		</Box>
 		<Spacer />
 		<Box>
 			<Menu>
-				<MenuButton as={IconButton} icon={<FcMenu />} variant="outlined" color="red.400" />
+				<MenuButton as={IconButton} icon={<FcMenu />} variant="outlined" color="blue.400" />
 				<MenuList>
 					<Link href="/" passHref>
 						<MenuItem icon={<FcHome />}>Home</MenuItem>
